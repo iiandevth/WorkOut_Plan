@@ -1,0 +1,52 @@
+body {
+    background-color: #E4C7A0; /* Beige Background */
+    font-family: Arial, sans-serif;
+}
+
+/* Update Workout Form */
+.container {
+    max-width: 600px;
+    background-color: #8C6A4F; /* Brown Box */
+    padding: 30px;
+    border-radius: 20px;
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fw-bold h1 {
+    font-weight: bold;
+    color: white;
+}
+
+/* Input Fields */
+.form-control {
+    border-radius: 20px;
+    background-color: #E4C7A0;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Buttons */
+.update-btn {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.btn-primary {
+    background-color: #6B4F3F;
+    color: white;
+    border: none;
+}
+
+.btn-secondary {
+    background-color: #6B4F3F;
+    color: white;
+    border: none;
+}

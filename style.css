@@ -1,0 +1,68 @@
+/* General Styling */
+body {
+    background-color: #E4C7A0; /* Beige Background */
+    font-family: Arial, sans-serif;
+}
+
+/* Centered Container */
+.container {
+    background-color: #8C6A4F;
+    max-width: 950px;
+    margin: auto;
+    text-align: center;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Workout Form */
+.workout-form {
+    background-color: #8C6A4F; /* Brown Box */
+    padding: 20px;
+    border-radius: 20px;
+}
+
+/* Input Fields & Select Boxes */
+.form-control, .form-select {
+    border-radius: 20px;
+    background-color: #E4C7A0;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Buttons */
+.btn-success {
+    background-color: #6B4F3F;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+/* Title */
+h1 {
+    font-weight: bold;
+}
+
+/* Workout Cards */
+.card {
+    background-color: #8C6A4F;
+    color: white;
+    border-radius: 15px;
+}
+
+.card img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Action Buttons */
+.btn-danger, .btn-warning {
+    border-radius: 15px;
+}
